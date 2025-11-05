@@ -1,8 +1,7 @@
 name: itvlist
 
 on:
-  schedule:
-    - cron: '0 21 * * *'
+   workflow_dispatch:  # 允许手动触发
   #push:
     #branches:
       #- main
