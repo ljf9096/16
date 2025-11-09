@@ -1,6 +1,10 @@
 name: 1
 
 on:
+  schedule:
+    # 北京时间凌晨1点 (UTC时间17:00，因为UTC+8)
+    # 格式: 分 时 日 月 周
+    - cron: '0 17 * * *'
    workflow_dispatch:  # 允许手动触发
   #push:
     #branches:
