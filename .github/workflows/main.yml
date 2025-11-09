@@ -7,9 +7,6 @@ on:
     # 格式: 分 时 日 月 周 (0-6, 0=周日, 3=周三)
     - cron: '0 17 * * 3'
   workflow_dispatch: # 允许手动触发
-  #push:
-    #branches:
-      #- main
 
 jobs:
   build:
