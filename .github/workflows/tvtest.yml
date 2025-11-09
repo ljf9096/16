@@ -1,6 +1,10 @@
 name: 2
 
 on:
+  schedule:
+    # 北京时间凌晨2点 (UTC时间18:00，因为UTC+8)
+    # 格式: 分 时 日 月 周
+    - cron: '0 18 * * *'
    workflow_dispatch:  # 允许手动触发
 
 jobs:
