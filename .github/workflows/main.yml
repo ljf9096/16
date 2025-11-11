@@ -1,4 +1,4 @@
-name: new.py1
+name: new
 
 on:
   schedule:
